@@ -2,7 +2,7 @@
 Para descargar las imágenes vamos a usar este comando:
 `sudo docker pull [nombreDisco]`.
 
-Ubuntu:18.04
+Ubuntu:18.04 \n
 ![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act02/01_Ubuntu.PNG)
 
 Centos:8
