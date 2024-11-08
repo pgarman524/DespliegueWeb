@@ -44,7 +44,7 @@ Ahora, vamos a arrancar el contenedor de MariaDB con la configuración solicitad
 ![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act04/06_Crear_contenedor_Mariadb.PNG)
 
 ### 7.
-Podemos verificar que el contenedor de MariaDB está funcionando correctamente ejecutando:
+Podemos verificar que el contenedor de MariaDB está funcionando correctamente ejecutando: 
 `docker logs bbdd`
 
 ![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act04/07_Comprobar_Mariadb.PNG)
