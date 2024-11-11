@@ -21,8 +21,6 @@ Para crear un contenedor a partir de la imagen **ubuntu:20.04** y nombrarlo **mo
 
 `sudo docker run -d --name modulo3 ubuntu:20.04`
 
-![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/04_intento_borrado.PNG)
-
 
 ## 4.
 Verificamos que el contenedor ha sido creado y si está en ejecución:
