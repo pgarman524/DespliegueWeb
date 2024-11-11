@@ -5,7 +5,7 @@ Descargamos la imagen de Ubuntu:
 
 `sudo docker pull ubuntu:20.04`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/01_descargar_ubuntu.PNG)
 
 
 ## 2.
@@ -13,7 +13,7 @@ Obtenemos toda la información de la imagen descargada, usamos el comando `docke
 
 `sudo docker inspect ubuntu:20.04 > info.txt`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/02_obtener_txt_instanciar_imagen.PNG)
 
 
 ## 3.
@@ -21,7 +21,7 @@ Para crear un contenedor a partir de la imagen **ubuntu:20.04** y nombrarlo **mo
 
 `sudo docker run -d --name modulo3 ubuntu:20.04`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/02_obtener_txt_instanciar_imagen.PNG)
 
 
 ## 4.
@@ -29,7 +29,7 @@ Verificamos que el contenedor ha sido creado y si está en ejecución:
 
 `sudo  docker ps -a`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/04_intento_borrado.PNG)
 
 
 ## 5.
@@ -37,7 +37,7 @@ Para borrar el archivo usaríamos este comando:
 
 `sudo docker rmi ubuntu:20.04`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/04_intento_borrado.PNG)
 
 Pero no nos dejará hacerlo ya que aún no hemos parado la imagen, aunque podemos hacerlo con un parámetro `-f` para forzar la acción.
 
@@ -48,7 +48,7 @@ Vamos a hacer los pasos necesarios para borrar la imagen sin usar `-f`. Con esto
 `sudo docker rm modulo3`
 `sudo docker rmi ubuntu:20.04`
 
-![img]()
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act06/05_pasos_de_borrado.PNG)
 
 
 Y con esto habríamos borrado la imagen de ubuntu.
