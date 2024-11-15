@@ -26,7 +26,7 @@ Para eso usamos el comando:
 
 y para el siguiente usamos:
 
-`docker run -d --name c2 -p 8282:80 -v $(pwd)/saludo:/var/www/html php:7.4-apache`
+`docker run -d --name c3 -p 8282:80 -v $(pwd)/saludo:/var/www/html php:7.4-apache`
 
 ![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act08/03_creamos_phpContainerC3.PNG)
 
