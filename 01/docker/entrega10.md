@@ -50,3 +50,23 @@ Y finalmente ya podemos subir la imagen creada:
 
 
 ## 2a Parte
+
+### 1.
+Abrimos un nano para colocar las instrucciones del php:
+
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act10/10_Part02_crearDockerfile.PNG)
+
+### 2.
+Lanzamos la imagen de php:
+
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act10/11_Part02_push_docker.PNG)
+
+### 3.
+Subimos la imagen a nuestro servidor:
+
+![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act10/12_Part02_docker%20push.PNG)
+
+Finalmente, ya tendríamos subido nuestro docker.
+
+
+## 2a Parte
