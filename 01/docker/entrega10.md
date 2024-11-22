@@ -67,6 +67,3 @@ Subimos la imagen a nuestro servidor:
 ![img](https://github.com/pgarman524/DespliegueWeb/blob/master/01/docker/imagenes/act10/12_Part02_docker%20push.PNG)
 
 Finalmente, ya tendríamos subido nuestro docker.
-
-
-## 2a Parte
